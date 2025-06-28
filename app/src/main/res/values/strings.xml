@@ -1,0 +1,92 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Weather Forecasts</string>
+    <string name="pref_location_default">Al Hillah</string>
+    <string name="api_key">72d2940ee94905601fa21aea53432014</string>
+
+    <!-- - - - - - - - - - - - - - - - -
+     - Used by WeatherUtils           -
+     - - - - - - - - - - - - - - - - -->
+
+    <!-- HighLow Temperature format -->
+    <string name="high_low_temperature">
+   <xliff:g id="high_temp">%1$1.0f</xliff:g>\u00B0 /
+   <xliff:g id="low_temp">%2$1.0f</xliff:g>\u00B0
+</string>
+
+    <!-- Temperature format -->
+    <string name="format_temperature">
+   <xliff:g id="temp">%1.0f</xliff:g>\u00B0
+</string>
+
+    <!-- Wind in kph -->
+    <string name="format_wind_kmh">
+   <xliff:g id="speed">%1$1.0f</xliff:g> km/h
+   <xliff:g id="direction">%2$s</xliff:g>
+</string>
+
+    <!-- Wind in mph -->
+    <string name="format_wind_mph">
+   <xliff:g id="speed">%1$1.0f</xliff:g> mph
+   <xliff:g id="direction">%2$s</xliff:g>
+</string>
+
+    <!-- Pressure format -->
+    <string name="format_pressure">
+   <xliff:g id="pressure">%1.0f</xliff:g> hPa
+</string>
+
+    <!-- Humidity format -->
+    <string name="format_humidity">
+   <xliff:g id="humidity">%1.0f</xliff:g> %%
+</string>
+
+    <!-- - - - - - - - - - - - - - - - -
+     - Wind Directions                -
+     - - - - - - - - - - - - - - - - -->
+    <string name="unknown_direction">Unknown Direction</string>
+    <string name="north">N</string>
+    <string name="east">E</string>
+    <string name="west">W</string>
+    <string name="south">S</string>
+    <string name="north_east">NE</string>
+    <string name="south_east">SE</string>
+    <string name="north_west">NW</string>
+    <string name="south_west">NE</string>
+
+    <!-- - - - - - - - - - - - - - -
+     - Used by CustomDateUtils          -
+     - - - - - - - - - - - - - - -->
+
+    <!-- For labelling today -->
+    <string name="today">Today</string>
+
+    <!-- For labelling tomorrow -->
+    <string name="tomorrow">Tomorrow</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_unit_metric" translatable="false">metric</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_label">Measurement system</string>
+    <string name="pref_label_metric">Metric</string>
+    <string name="pref_label_imperial">Imperial</string>
+    <string name="pref_unit_imperial" translatable="false">imperial</string>
+
+    - Secondary weather info labels -
+    - - - - - - - - - - - - - - - - - -->
+    <string name="wind_label">Wind</string>
+    <string name="pressure_label">Pressure</string>
+    <string name="humidity_label">Humidity</string>
+
+    <string name="weather_notification_channel_name">Weather Utils</string>
+    <string name="weather_notification_channel_description">this channel used for displaying notification after weather update ones a day </string>
+    <string name="format_notification">
+        Weather Condition: <xliff:g id="condition">%1$s</xliff:g> -
+        High:<xliff:g id="high">%2$1.0f</xliff:g>
+        Low:<xliff:g id="low">%3$1.0f</xliff:g>
+    </string>
+    <string name="sync_service_notification_message">Weather data cyncing...</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
